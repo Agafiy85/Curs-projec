@@ -245,12 +245,14 @@ h1{
     font-size: 13px;
     padding: 16px;
    }
-   .footer{
+   .footer-botom{
        background: $color-primary-7 url(../img/header-bee-line-1.png) no-repeat 0% 40%;
        height: 229px;
        margin-top: 36px;
       z-index: 1;
-       
+     @media screen and (max-width: 1200px) {
+         display: none;
+     }  
    }
    img{
     margin-top: 22px;
@@ -276,6 +278,10 @@ h1{
        background: $color-primary-8;
        height: 65px;
        z-index: 0;
+
+       @media screen and (max-width: 1200px) {
+        background: $color-primary-7;
+    }  
    }
 .social__text{
     color: $color-text-6;

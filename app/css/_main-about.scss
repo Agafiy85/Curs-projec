@@ -1,6 +1,7 @@
 .about_us{
     background: $color-primary-6;
-    height: 70px;
+    // height: 70px;
+    margin-top: 22px;
 }
 .title2{
     color: $color-text-6;
@@ -73,6 +74,8 @@ address{
 .title_contact{
     color: $color-text-6;
     font-family: $font-regular;
+    font-size: 20px;
+    padding-top: 8px;
 }
 .main-content{
     background: $color-primary-6;
